@@ -9,6 +9,9 @@ on:
         default: false
       target: 
         type: environment
+        options:
+          - Prod
+          - Staging
         required: true
         description: Which environment the workflow will target
       tag:
